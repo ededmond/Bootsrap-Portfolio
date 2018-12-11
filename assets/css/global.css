@@ -14,4 +14,7 @@
     .nav bar {
         text-align:center;
     }
+    body {
+        background-color: orange;
+    }
 }
