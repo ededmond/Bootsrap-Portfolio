@@ -1,0 +1,14 @@
+
+
+@media screen and (max-width: 768) {
+    /* .navbar-brand {
+        text-align:center;
+    }
+    .navbar-text {
+        text-align:center;
+    } */
+    .navbar {
+        visibility:hidden;
+        
+    }
+}
