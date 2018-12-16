@@ -44,6 +44,7 @@ body {
     background-color:white;
     border: #dddddd solid 1px;
     margin-top:20px;
+    margin-bottom: 70px;
   }
 h2 {
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -59,6 +60,9 @@ h2 {
     height:200px;
     width:200px;
     margin-right:10px;
+}
+.img-box {
+    margin-bottom: 20px;
 }
 footer {
     position:fixed;
