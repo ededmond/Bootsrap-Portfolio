@@ -102,6 +102,7 @@ footer {
     color:white;
 }
 
+
 /* Makes everything fill the screen for small devices: */
  @media screen and (max-width : 768px) {
     .container {
