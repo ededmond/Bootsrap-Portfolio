@@ -46,7 +46,15 @@
 
   <!-- Bootstrap CDN -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        // $(document).ready(function() {
+        //     $(".card-img").on("click",function() {
+        //         console.log("got here");
+        //         this.src = "assets/images/camera.gif";
+        //     });
+        // });
+    </script>
   <div class = "container">
     <section class = "row ">
         <div class = "col-12">
@@ -63,9 +71,9 @@
                 </div>
                 <div class = "col-6">
                         <div class="card bg-dark text-white">
-                                <img class="card-img" src="assets/images/castle.PNG" alt="Cat">
+                                <img class="card-img" src="assets/images/castle.PNG" alt="Castle">
                                 <div class="card-img-overlay">
-                                    <h5 class="card-title">Harry Potter Trivia</h5>
+                                    <h5 class="card-title"><a href = "https://ededmond.github.io/TriviaGame">Harry Potter Trivia</a></h5>
                                 </div>
                             </div>
                 </div>
@@ -73,9 +81,9 @@
             <div class ="row mx-auto">
                 <div class = "col-6">
                         <div class="card bg-dark text-white">
-                                <img class="card-img" src="assets/images/deer.jpg" alt="Deer">
+                                <img  id = "giphy-api" class="card-img" src="assets/images/camera.gif" alt="Polaroid Camera">
                                 <div class="card-img-overlay">
-                                    <h5 class="card-title">Deer Placeholder</h5>
+                                    <h5 class="card-title"><a href = "https://ededmond.github.io/Fun-with-images/">Giphy API</a></h5>
                                 </div>
                             </div>
                 </div>
@@ -105,4 +113,5 @@
   <footer>
         <div>Copyright &copy;</div>
     </footer>
+    
 </body>
