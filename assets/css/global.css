@@ -63,11 +63,16 @@ h5 {
     height:200px;
     width:200px;
     margin-right:10px;
+    overflow: hidden;
 }
 .card {
   overflow:hidden;
   margin-bottom:30px;
 }
+/* img {
+  height: 200px;
+  width: 200px;
+} */
 .card-img-overlay{
   width:130%;
 }
